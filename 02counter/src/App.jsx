@@ -16,6 +16,11 @@ function App() {
     setCounter(prevCounter => prevCounter + 1)
     setCounter(prevCounter => prevCounter + 1)
     
+    if(counter === 20) {
+      setCounter(counter)
+      alert('your counter is complite')
+    }
+
   }
 
   const removeValue = () => {
